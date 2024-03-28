@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .topnav a:hover {
+       background-color: rgb(249, 247, 247);
+       color: rgb(12, 12, 12);
+    }
+
+    body{
+            background-image: url(img_A2/background.jfif);
+            background-size: 100%;
+    }
+
+    </style>
+</head>
+<body align="center">
+    
+    <div class="topnav">
+        <a href="index.html">HOME</a>
+        <a href="login_page.html">LOGIN</a>
+        <a href="registration.html">REGISTER</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="gallery.html">GALLERY</a>    
+    </div>
+
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+
+    <h1 align="center">CUSTOMER SIGN UP</h1>
+    <form title="CUSTOMER SIGN UP">
+    <label>Enter Name</label>
+    <input type="text" placeholder="Enter Username" pattern="[a-z]">
+    <br><br>
+    <label>Enter Address</label>
+    <input type="text" placeholder="address" >
+    <br><br>
+    <label>Enter Mobile Number</label>
+    <input type="number" placeholder="Mobile" maxlength="10" pattern="[789][0-9]{9}">
+    <br><br>
+    <label>Enter Email Id</label>
+    <input type="text" placeholder="Email id" >
+    <br><br>
+    <label>Enter Birth Date</label>
+    <input type="date" name="birthday" id="birthday">
+    <br><br>
+    <label>Attach Payment Receipt</label>
+    <input type="image" placeholder="receipt"></input>
+    <br>
+    <br>
+    <input type="button" value="PLACE ORDER" id="submit" name="submit">
+</form>
+
+</body>
+</html>
